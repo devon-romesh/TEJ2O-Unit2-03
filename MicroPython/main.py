@@ -1,9 +1,18 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Devon
+Created on: Feb 2026
+This module is a Micro:bit MicroPython program that does basic math.
 """
+
 
 from microbit import *
 
-display.scroll("Hello, World!")
+
+sleep(1000)
+display.scroll("A rectangle has dimensions 5cm and 3cm")
+
+
+display.scroll("The perimeter: 2(5+3)" + (2 * (5 + 3) ) + " cm")
+
+
+display.scroll("The area: 5x3 " + 5*3 + " cm^2")
